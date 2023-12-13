@@ -1,7 +1,13 @@
+import Content from "./components/Content";
+import Header from "./components/Header";
+
 function App() {
   return (
     <>
-      <h1 className={"text-center text-6xl py-10"}>Tes React</h1>
+      <div className="">
+        <Header />
+        <Content />
+      </div>
     </>
   );
 }
