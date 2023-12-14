@@ -7,6 +7,10 @@ export default {
         montserrat: ["Montserrat"],
         poppins: ["Poppins"],
       },
+      backgroundImage: {
+        heroBg : "url('/src/assets/bg.png')",
+        heroBgMoblie: "url('/src/assets/bg-mobile.png')"
+      }
     },
   },
   plugins: [],
